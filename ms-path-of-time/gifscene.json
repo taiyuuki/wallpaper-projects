@@ -1,0 +1,1139 @@
+{
+	"camera" : 
+	{
+		"center" : "-15.01697 129.52136 0.00000",
+		"eye" : "-15.01697 129.52136 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.00000 0.00000 0.00000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.00000 0.00000 0.00000",
+		"spritesheetrefreshsync" : true,
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 225,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "WhereverYouAre.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/WhereverYouAre.mp3" ],
+			"startsilent" : false,
+			"volume" : 1.0
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 99,
+			"image" : "models/bg.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "bg",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 71,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : "1012.00000 704.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "128.00000 115.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 73,
+			"image" : "models/back.3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.3",
+			"origin" : "884.00000 412.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "113.00000 107.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 61,
+			"image" : "models/back.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.10",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 149,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 48.417542
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 150,
+						"mode" : "mirror",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "968.66467 671.29999 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "176.00000 135.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 113,
+			"image" : "models/back.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.8",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 967.54669
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 78
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 180,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 143.76349
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 180,
+						"mode" : "mirror",
+						"wraploop" : null
+					}
+				},
+				"value" : "967.54669 102.96000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "140.00000 110.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 31,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 0.5",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 0.0,
+								"power" : 1.0,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 32
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 27,
+			"image" : "models/ani.2.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.2.0",
+			"origin" : "766.29083 773.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "277.00000 247.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 50,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 0.5",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 1,
+								"power" : 1.0,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 51
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 49,
+			"image" : "models/ani.2.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.2.0",
+			"origin" : "1213.53125 314.66000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-1.00000 1.00000 1.00000",
+			"size" : "277.00000 247.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 42,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 0.5",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 1,
+								"power" : 1,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 0
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 38,
+			"image" : "models/ani.3.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.3.0",
+			"origin" : "1149.43616 260.54001 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "365.00000 393.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 17,
+			"image" : "models/ani.5.1.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.5.1",
+			"origin" : "955.00000 940.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "424.00000 275.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 77,
+			"image" : "models/back.4.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.4",
+			"origin" : "1035.00000 93.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "200.00000 272.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 53,
+			"image" : "models/back.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.11",
+			"origin" : "955.50000 668.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "441.00000 272.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 57,
+			"image" : "models/back.12.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.12",
+			"origin" : "931.50000 394.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "491.00000 279.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 81,
+			"image" : "models/back.13.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.13",
+			"origin" : "880.50000 144.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "123.00000 107.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 115,
+			"image" : "models/back.15.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.15",
+			"origin" : "1157.00000 188.30000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "64.00000 122.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 85,
+			"image" : "models/back.14.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.14",
+			"origin" : "773.50000 78.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "79.00000 124.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 96,
+			"image" : "models/item.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "item",
+			"origin" : "950.00000 443.39999 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "534.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 97,
+					"name" : "闪烁",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1.0,
+								"bounds" : "-1 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 3,
+								"power" : 1.0,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 98
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 93,
+			"image" : "models/ani.6.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.6.0",
+			"origin" : "1138.00000 908.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "247.00000 227.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 108,
+					"name" : "闪烁",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "-1 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 4,
+								"power" : 1,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 109
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 104,
+			"image" : "models/ani.7.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.7.0",
+			"origin" : "776.68066 412.72000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "366.00000 527.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 117,
+					"name" : "闪烁",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "-1 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 2.5,
+								"power" : 1,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 118
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 111,
+			"image" : "models/ani.8.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8.0",
+			"origin" : "953.76349 242.56000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "281.00000 179.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 185,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0,
+								"speedy" : 0.15000001
+							},
+							"id" : 186
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 161,
+					"name" : "闪烁",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "-1 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 5,
+								"power" : 1,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 176
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 183,
+			"image" : "models/ani.0.0.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.0.0.fit",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "635.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 190,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0,
+								"speedy" : 0.15000001
+							},
+							"id" : 191
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 180,
+					"name" : "闪烁",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "-1 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 5,
+								"power" : 1,
+								"speed" : 1,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 181
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 188,
+			"image" : "models/ani.1.0.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.1.0.fit",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "515.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 123,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : -0.15000001,
+								"speedy" : 0
+							},
+							"id" : 124
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 119,
+			"image" : "models/cloud.1.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "cloud.1.fit",
+			"origin" : "960.00000 853.35315 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 141.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 127,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : -0.13,
+								"speedy" : 0
+							},
+							"id" : 128
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 126,
+			"image" : "models/cloud.1.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "cloud.1.fit",
+			"origin" : "960.00000 150.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 141.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 134,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : -0.12,
+								"speedy" : 0
+							},
+							"id" : 135
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 130,
+			"image" : "models/cloud.2.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "cloud.2.fit",
+			"origin" : "956.40002 612.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 120.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 141,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : -0.14,
+								"speedy" : 0
+							},
+							"id" : 142
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 137,
+			"image" : "models/cloud.3.fit.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "cloud.3.fit",
+			"origin" : "960.00000 515.51508 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 109.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 0
+}

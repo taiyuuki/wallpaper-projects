@@ -1,0 +1,10 @@
+{
+	"bleedtransparentcolors" : true,
+	"clampuvs" : true,
+	"format" : "rgba8888",
+	"frameduration" : 0.1,
+	"halfmip" : true,
+	"imagesequence" : [ "ani.5.1.png", "ani.5.2.png", "ani.5.4.png", "ani.5.5.png" ],
+	"nomip" : true,
+	"nonpoweroftwo" : true
+}
