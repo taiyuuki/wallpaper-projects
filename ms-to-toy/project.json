@@ -1,0 +1,28 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "冒险岛动态壁纸——开往玩具城。",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.058823529411764705 0.23137254901960785 0.6196078431372549"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"snapshotformat" : 0,
+	"snapshotoverlay" : "",
+	"tags" : [ "Game" ],
+	"title" : "MapleStory: Toy Ship 冒险岛：开往玩具城",
+	"type" : "scene",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "2964791559",
+	"workshopurl" : "steam://url/CommunityFilePage/2964791559"
+}
