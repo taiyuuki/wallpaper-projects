@@ -1,0 +1,849 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 58,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "ComeWithMe.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/ComeWithMe.mp3" ],
+			"startsilent" : false,
+			"volume" : 1.0
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 13,
+			"image" : "models/bg.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "bg",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n\n// 云层飘动速度\nshared.speed = 1;\n/**\n * @param {Boolean} value - for property 'visible'\n * @return {Boolean} - update current property value\n */\nexport function update(value) {\n\t\n\treturn value;\n}\n",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 83,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2070) {\n\t\tvalue.x = -150\n\t}\n\treturn value;\n}\n",
+				"value" : "50.00000 136.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "287.00000 76.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 87,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2070) {\n\t\tvalue.x = -150\n\t}\n\treturn value;\n}\n",
+				"value" : "1100.00000 136.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "287.00000 76.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 123,
+			"image" : "models/back.3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.3",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2247) {\n\t\tvalue.x = -227\n\t}\n\treturn value;\n}\n",
+				"value" : "227.00000 655.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "449.00000 120.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 127,
+			"image" : "models/back.3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.3",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2247) {\n\t\tvalue.x = -227\n\t}\n\treturn value;\n}\n",
+				"value" : "1473.50000 655.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "449.00000 120.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 37,
+			"image" : "models/back.4.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.4",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed;\n\tif (value.x > 2152) {\n\t\tvalue.x = -232\n\t}\n\treturn value;\n}\n",
+				"value" : "-232.00000 274.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "456.00000 392.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 73,
+			"image" : "models/back.4.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.4",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed;\n\tif (value.x > 2152) {\n\t\tvalue.x = -232\n\t}\n\treturn value;\n}\n",
+				"value" : "960.00000 274.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "456.00000 392.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 103,
+			"image" : "models/back.6.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.6",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed;\n\tif (value.x > 2050) {\n\t\tvalue.x = -130\n\t}\n\treturn value;\n}\n",
+				"value" : "130.00000 970.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "251.00000 94.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 107,
+			"image" : "models/back.6.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.6",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed;\n\tif (value.x > 2050) {\n\t\tvalue.x = -130\n\t}\n\treturn value;\n}\n",
+				"value" : "1225.00000 970.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "251.00000 94.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 93,
+			"image" : "models/back.5.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.5",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2112) {\n\t\tvalue.x = -192\n\t}\n\treturn value;\n}\n",
+				"value" : "792.00000 837.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "365.00000 222.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 97,
+			"image" : "models/back.5.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.5",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 0.8;\n\tif (value.x > 2112) {\n\t\tvalue.x = -192\n\t}\n\treturn value;\n}\n",
+				"value" : "1856.00000 837.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "365.00000 222.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 113,
+			"image" : "models/back.7.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.7",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 1.2;\n\tif (value.x > 2047) {\n\t\tvalue.x = -127\n\t}\n\treturn value;\n}\n",
+				"value" : "-127.00000 780.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "250.00000 103.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 117,
+			"image" : "models/back.7.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.7",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 1.2;\n\tif (value.x > 2047) {\n\t\tvalue.x = -127\n\t}\n\treturn value;\n}\n",
+				"value" : "1023.50000 780.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "250.00000 103.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 72,
+			"image" : "models/back.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 1.2;\n\tif (value.x > 2047) {\n\t\tvalue.x = -127\n\t}\n\treturn value;\n}\n",
+				"value" : "327.00000 228.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "242.00000 103.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 80,
+			"image" : "models/back.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x + shared.speed * 1.2;\n\tif (value.x > 2047) {\n\t\tvalue.x = -127\n\t}\n\treturn value;\n}\n",
+				"value" : "1233.00000 228.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "242.00000 103.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 46,
+			"image" : "models/3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "3",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tif (value.y > 1150) {\n\t\tvalue.y = value.y - 1\n\t} else {\n\t\tvalue.y = value.y - 6;\n\t}\n\tif (value.y < -150) {\n\t\tvalue.y = 1300;\n\t\tvalue.x = (Math.random() * (1800 - 200 + 1)) + 200;\n\t}\n\treturn value;\n}\n",
+				"value" : "700.00000 1148.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "68.00000 133.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 51,
+			"image" : "models/2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tif (value.y > 1300) {\n\t\tvalue.y = value.y - 1\n\t} else {\n\t\tvalue.y = value.y - 3;\n\t}\n\tif (value.y < -255) {\n\t\tvalue.x = (Math.random() * (1800 - 200 + 1)) + 200;\n\t\tvalue.y = 1500;\n\t}\n\treturn value;\n}\n",
+				"value" : "1350.00000 500.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "184.00000 251.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 19,
+			"image" : "models/tower._top.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "tower._top",
+			"origin" : "960.00000 406.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "800.00000 815.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 23,
+			"image" : "models/skyStation.top.9.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "skyStation.top.9.0",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 120,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -22.75036
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -7.1416302
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 120,
+						"mode" : "mirror",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "957.99524 358.48474 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "44.00000 102.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 35,
+			"image" : "models/skyStation.top.9.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "skyStation.top.9.0",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 120,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -22.75036
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -7.1416302
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 150,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 120,
+						"mode" : "mirror",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "779.45081 808.41687 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "44.00000 102.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

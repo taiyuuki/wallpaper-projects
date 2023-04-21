@@ -1,0 +1,1039 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 30,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "WindAndFlower.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/WindAndFlower.mp3" ],
+			"startsilent" : false,
+			"volume" : 1.0
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 37,
+			"image" : "models/bg.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "bg",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n// 云层浮动速度\nshared.speed = 0.5;\n// 樱花飘落速度 -- 秒速五厘米？\nshared.sakura = 1;\n/**\n * @param {Boolean} value - for property 'visible'\n * @return {Boolean} - update current property value\n */\nexport function update(value) {\n\t\n\treturn value;\n}\n",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 174,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x - shared.speed;\n\tif (value.x < -660) {\n\t\tvalue.x = 2580;\n\t}\n\treturn value;\n}\n",
+				"value" : "2580.00000 700.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1306.00000 276.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 171,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x - shared.speed;\n\tif (value.x < -660) {\n\t\tvalue.x = 2580;\n\t}\n\treturn value;\n}\n",
+				"value" : "-37.00000 700.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1306.00000 276.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 189,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.x = value.x - shared.speed;\n\tif (value.x < -660) {\n\t\tvalue.x = 2580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1281.72925 720.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1306.00000 276.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 192,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0.1,
+								"speedy" : 0
+							},
+							"id" : 193
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 190,
+			"image" : "models/back.2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "back.2",
+			"origin" : "649.18500 550.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1306.00000 276.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 107,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 5,
+								"power" : 1.0,
+								"speed" : 2,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 109,
+							"textures" : [ null, null, "masks/pulse_mask_cd574af5" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 99,
+			"image" : "models/obj.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "obj",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 43,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 10,
+								"bounds" : "0 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 0.0,
+								"power" : 1.0,
+								"speed" : 2,
+								"tinthigh" : "0.5058823529411764 0 0.9921568627450981",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 44
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 41,
+			"image" : "models/tree.17.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "tree.17.0",
+			"origin" : "1245.00000 490.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "272.00000 222.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 46,
+			"image" : "models/center.5.1.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "center.5.1",
+			"origin" : "1259.00000 402.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "344.00000 88.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 38,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1.0,
+								"bounds" : "0 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 5,
+								"power" : 1.0,
+								"speed" : 2
+							},
+							"id" : 40
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 33,
+			"image" : "models/center.11.1.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "center.11.1",
+			"origin" : "1602.50000 414.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "187.00000 97.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 79,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "810.00000 1103.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 77,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "600.67603 825.07404 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 82,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1796.81311 893.67596 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 84,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1508.33289 981.62726 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 92,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1747.56018 198.86105 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 94,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1147.73254 168.95761 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 133,
+			"image" : "models/ani.8.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.8",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1737.00598 712.49646 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "30.00000 27.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 98,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1172.00000 1103.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 102,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "735.76166 849.70044 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 104,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "980.26611 877.84485 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 106,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1495.66052 629.82227 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 108,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "938.04950 605.19586 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 110,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1757.75537 420.49817 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 135,
+			"image" : "models/ani.9.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.9",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1200.14441 524.28058 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "31.00000 24.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 129,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "943.48547 621.87659 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 137,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1333.98901 806.57422 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 139,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "582.88525 588.45508 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 141,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1842.34729 590.21411 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 143,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "834.42584 438.93787 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 159,
+			"image" : "models/ani.10.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.10",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1202.06213 931.46497 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "28.00000 16.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 145,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "943.48547 621.87659 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 149,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "625.10199 182.12033 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 151,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1669.96301 922.66998 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 153,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1240.76086 505.78094 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 155,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "706.01721 831.20068 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 157,
+			"image" : "models/ani.11.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "ani.11",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function update(value) {\n\tvalue.y = value.y - shared.sakura;\n\tif (value.y < -5) {\n\t\tvalue.y = 1103\n\t\tvalue.x = value.x = (Math.random() * (1800 - 580 + 1)) + 580;\n\t}\n\treturn value;\n}\n",
+				"value" : "1267.14624 301.73410 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "25.00000 20.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 114,
+			"instanceoverride" : 
+			{
+				"id" : 115
+			},
+			"locktransforms" : false,
+			"name" : "down",
+			"origin" : "1200.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/down.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}
