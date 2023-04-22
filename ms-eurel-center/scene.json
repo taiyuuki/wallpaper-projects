@@ -212,7 +212,7 @@
 			[
 				{
 					"file" : "effects/pulse/effect.json",
-					"id" : 107,
+					"id" : 138,
 					"name" : "",
 					"passes" : 
 					[
@@ -221,22 +221,22 @@
 							{
 								"amount" : 0.5,
 								"bounds" : "0 1",
-								"noiseamount" : 0.0,
+								"noiseamount" : 0,
 								"noisespeed" : 0.5,
 								"phase" : 5,
-								"power" : 1.0,
+								"power" : 1,
 								"speed" : 2,
 								"tinthigh" : "1 1 1",
 								"tintlow" : "1 1 1"
 							},
-							"id" : 109,
+							"id" : 0,
 							"textures" : [ null, null, "masks/pulse_mask_cd574af5" ]
 						}
 					],
 					"visible" : true
 				}
 			],
-			"id" : 99,
+			"id" : 105,
 			"image" : "models/obj.json",
 			"ledsource" : false,
 			"locktransforms" : false,

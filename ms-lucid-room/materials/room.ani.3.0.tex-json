@@ -1,0 +1,24 @@
+{
+	"bleedtransparentcolors" : true,
+	"clampuvs" : true,
+	"format" : "rgba8888",
+	"frameduration" : 0.15,
+	"halfmip" : true,
+	"imagesequence" : 
+	[
+		"room.ani.3.0.png",
+		"room.ani.3.1.png",
+		"room.ani.3.2.png",
+		"room.ani.3.3.png",
+		"room.ani.3.4.png",
+		"room.ani.3.5.png",
+		"room.ani.3.6.png",
+		"room.ani.3.7.png",
+		"room.ani.3.8.png",
+		"room.ani.3.9.png",
+		"room.ani.3.10.png"
+	],
+	"nointerpolation" : true,
+	"nomip" : true,
+	"nonpoweroftwo" : true
+}

@@ -1,0 +1,28 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "冒险岛动态壁纸——诺特勒斯码头\n\n更新：修正背景动画",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0.6705882352941176 1"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"snapshotformat" : 0,
+	"snapshotoverlay" : "",
+	"tags" : [ "Game" ],
+	"title" : "MapleStory: Nautilus Harbor 冒险岛：诺特勒斯码头",
+	"type" : "scene",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "2965590793",
+	"workshopurl" : "steam://url/CommunityFilePage/2965590793"
+}

@@ -1,0 +1,24 @@
+{
+	"bleedtransparentcolors" : true,
+	"clampuvs" : true,
+	"format" : "rgba8888",
+	"frameduration" : 0.13,
+	"halfmip" : true,
+	"imagesequence" : 
+	[
+		"ani.17.0.png",
+		"ani.17.1.png",
+		"ani.17.2.png",
+		"ani.17.3.png",
+		"ani.17.4.png",
+		"ani.17.5.png",
+		"ani.17.6.png",
+		"ani.17.7.png",
+		"ani.17.8.png",
+		"ani.17.9.png",
+		"ani.17.10.png",
+		"ani.17.11.png"
+	],
+	"nomip" : false,
+	"nonpoweroftwo" : true
+}

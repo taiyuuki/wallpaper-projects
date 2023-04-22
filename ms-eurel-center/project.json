@@ -18,8 +18,9 @@
 	"preview" : "preview.jpg",
 	"tags" : [ "Game" ],
 	"title" : "MapleStory: Eurel 冒险岛：埃欧雷",
-	"type" : "scene",
-	"version" : 2,
+	"type" : "Scene",
+	"version" : 3,
+	"visibility" : "public",
 	"workshopid" : "2965142516",
 	"workshopurl" : "steam://url/CommunityFilePage/2965142516"
 }

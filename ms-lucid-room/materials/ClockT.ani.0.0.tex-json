@@ -1,0 +1,19 @@
+{
+	"bleedtransparentcolors" : true,
+	"clampuvs" : true,
+	"format" : "rgba8888",
+	"frameduration" : 0.15,
+	"halfmip" : true,
+	"imagesequence" : 
+	[
+		"ClockT.ani.0.0.png",
+		"ClockT.ani.0.1.png",
+		"ClockT.ani.0.2.png",
+		"ClockT.ani.0.3.png",
+		"ClockT.ani.0.4.png",
+		"ClockT.ani.0.5.png",
+		"ClockT.ani.0.6.png"
+	],
+	"nomip" : true,
+	"nonpoweroftwo" : true
+}

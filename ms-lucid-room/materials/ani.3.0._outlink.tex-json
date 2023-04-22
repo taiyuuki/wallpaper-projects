@@ -1,0 +1,28 @@
+{
+	"bleedtransparentcolors" : true,
+	"clampuvs" : true,
+	"format" : "dxt5",
+	"frameduration" : 0.17,
+	"halfmip" : true,
+	"imagesequence" : 
+	[
+		"ani.3.0._outlink.png",
+		"ani.3.1._outlink.png",
+		"ani.3.2._outlink.png",
+		"ani.3.3._outlink.png",
+		"ani.3.4._outlink.png",
+		"ani.3.5._outlink.png",
+		"ani.3.6._outlink.png",
+		"ani.3.7._outlink.png",
+		"ani.3.8._outlink.png",
+		"ani.3.9._outlink.png",
+		"ani.3.10._outlink.png",
+		"ani.3.11._outlink.png",
+		"ani.3.12._outlink.png",
+		"ani.3.13._outlink.png",
+		"ani.3.14._outlink.png",
+		"ani.3.15._outlink.png"
+	],
+	"nomip" : false,
+	"nonpoweroftwo" : true
+}
